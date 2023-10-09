@@ -1,0 +1,121 @@
+html{
+    background-color: #e8e8e8;
+    margin: 0;
+}
+
+#frozoid_logo{
+    width: 130px;
+    margin-left: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nav-links{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+    .img-carr{
+        width: 1000px;
+    }
+
+.button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 15px;
+        background-color: #181717;
+        outline: 3px #181717 solid;
+        outline-offset: -3px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: 400ms;
+      }
+      
+            .button .text {
+                color: white;
+             font-weight: 700;
+                font-size: 1em;
+             transition: 400ms;
+          }
+      
+                .button svg path {
+                 transition: 400ms;
+                }
+      
+                    .button:hover {
+                     background-color: transparent;
+                     }
+      
+                        .button:hover .text {
+                            color: #181717;
+                        }
+      
+                                .button:hover svg path {
+                                    fill: #181717;
+                                }
+
+#caja1{
+    display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+        
+
+}
+
+       #caja1>img{
+           width: 1200px ;
+             border-radius: 20px;
+}
+
+          #caja1>div{
+              margin-right: 20px;
+}
+
+#caja2{
+    display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+        text-align: right   ;
+}
+
+        #caja2>img{
+             width: 1200px ;
+              border-radius: 20px;
+}
+        #caja2>div{
+            margin-left: 20px;
+
+}
+
+
+
+#section_img{
+    width: 200px;
+
+}
+#section_img_om{
+    width: 250px;
+}
+
+#info{
+    margin-top: 100px;
+}
+
+
